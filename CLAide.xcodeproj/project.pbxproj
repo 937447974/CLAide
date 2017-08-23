@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		0AE772421F4D743600432AA9 /* argv.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = argv.rb; sourceTree = "<group>"; };
+		0AE772431F4D743600432AA9 /* make.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = make.rb; sourceTree = "<group>"; };
+		0AE772471F4D743600432AA9 /* cursor.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = cursor.rb; sourceTree = "<group>"; };
+		0AE772481F4D743600432AA9 /* graphics.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = graphics.rb; sourceTree = "<group>"; };
+		0AE772491F4D743600432AA9 /* string_escaper.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = string_escaper.rb; sourceTree = "<group>"; };
+		0AE7724A1F4D743600432AA9 /* ansi.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = ansi.rb; sourceTree = "<group>"; };
+		0AE7724B1F4D743600432AA9 /* argument.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = argument.rb; sourceTree = "<group>"; };
+		0AE7724C1F4D743600432AA9 /* argv.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = argv.rb; sourceTree = "<group>"; };
+		0AE7724E1F4D743600432AA9 /* argument_suggester.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = argument_suggester.rb; sourceTree = "<group>"; };
+		0AE7724F1F4D743600432AA9 /* banner.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = banner.rb; sourceTree = "<group>"; };
+		0AE772501F4D743600432AA9 /* plugin_manager.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = plugin_manager.rb; sourceTree = "<group>"; };
+		0AE772511F4D743600432AA9 /* command.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = command.rb; sourceTree = "<group>"; };
+		0AE772521F4D743600432AA9 /* help.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = help.rb; sourceTree = "<group>"; };
+		0AE772531F4D743600432AA9 /* informative_error.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = informative_error.rb; sourceTree = "<group>"; };
+		0AE772541F4D743600432AA9 /* claide.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = claide.rb; sourceTree = "<group>"; };
+		0AE772571F4D743600432AA9 /* cursor_spec.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = cursor_spec.rb; sourceTree = "<group>"; };
+		0AE772581F4D743600432AA9 /* graphics_spec.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = graphics_spec.rb; sourceTree = "<group>"; };
+		0AE772591F4D743600432AA9 /* string_escaper_spec.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = string_escaper_spec.rb; sourceTree = "<group>"; };
+		0AE7725A1F4D743600432AA9 /* ansi_spec.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = ansi_spec.rb; sourceTree = "<group>"; };
+		0AE7725B1F4D743600432AA9 /* argument_spec.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = argument_spec.rb; sourceTree = "<group>"; };
+		0AE7725C1F4D743600432AA9 /* argv_spec.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = argv_spec.rb; sourceTree = "<group>"; };
+		0AE7725E1F4D743600432AA9 /* argument_suggester_spec.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = argument_suggester_spec.rb; sourceTree = "<group>"; };
+		0AE7725F1F4D743600432AA9 /* banner_spec.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = banner_spec.rb; sourceTree = "<group>"; };
+		0AE772601F4D743600432AA9 /* plugin_manager_spec.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = plugin_manager_spec.rb; sourceTree = "<group>"; };
+		0AE772611F4D743600432AA9 /* command_spec.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = command_spec.rb; sourceTree = "<group>"; };
+		0AE772641F4D743600432AA9 /* demo_plugin.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = demo_plugin.rb; sourceTree = "<group>"; };
+		0AE772651F4D743600432AA9 /* fixture_plugin.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = fixture_plugin.rb; sourceTree = "<group>"; };
+		0AE772661F4D743600432AA9 /* load_error_plugin_fixture.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = load_error_plugin_fixture.rb; sourceTree = "<group>"; };
+		0AE772671F4D743600432AA9 /* help_spec.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = help_spec.rb; sourceTree = "<group>"; };
+		0AE772691F4D743600432AA9 /* fixtures.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = fixtures.rb; sourceTree = "<group>"; };
+		0AE7726A1F4D743600432AA9 /* rubygems.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rubygems.rb; sourceTree = "<group>"; };
+		0AE7726B1F4D743600432AA9 /* string_ext.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = string_ext.rb; sourceTree = "<group>"; };
+		0AE7726C1F4D743600432AA9 /* spec_helper.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = spec_helper.rb; sourceTree = "<group>"; };
+		0AE7726D1F4D743600432AA9 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		0AE7726E1F4D743600432AA9 /* claide.gemspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = claide.gemspec; sourceTree = "<group>"; };
+		0AE7726F1F4D743600432AA9 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		0AE772701F4D743600432AA9 /* Gemfile.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
+		0AE772711F4D743600432AA9 /* Rakefile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		0AE772721F4D743600432AA9 /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0AE7723A1F4D741400432AA9 = {
+			isa = PBXGroup;
+			children = (
+				0AE772411F4D743600432AA9 /* examples */,
+				0AE772441F4D743600432AA9 /* lib */,
+				0AE772551F4D743600432AA9 /* spec */,
+				0AE7726D1F4D743600432AA9 /* CHANGELOG.md */,
+				0AE7726E1F4D743600432AA9 /* claide.gemspec */,
+				0AE7726F1F4D743600432AA9 /* Gemfile */,
+				0AE772701F4D743600432AA9 /* Gemfile.lock */,
+				0AE772711F4D743600432AA9 /* Rakefile */,
+				0AE772721F4D743600432AA9 /* README.markdown */,
+			);
+			sourceTree = "<group>";
+		};
+		0AE772411F4D743600432AA9 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				0AE772421F4D743600432AA9 /* argv.rb */,
+				0AE772431F4D743600432AA9 /* make.rb */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		0AE772441F4D743600432AA9 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0AE772451F4D743600432AA9 /* claide */,
+				0AE772541F4D743600432AA9 /* claide.rb */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		0AE772451F4D743600432AA9 /* claide */ = {
+			isa = PBXGroup;
+			children = (
+				0AE772461F4D743600432AA9 /* ansi */,
+				0AE7724A1F4D743600432AA9 /* ansi.rb */,
+				0AE7724B1F4D743600432AA9 /* argument.rb */,
+				0AE7724C1F4D743600432AA9 /* argv.rb */,
+				0AE7724D1F4D743600432AA9 /* command */,
+				0AE772511F4D743600432AA9 /* command.rb */,
+				0AE772521F4D743600432AA9 /* help.rb */,
+				0AE772531F4D743600432AA9 /* informative_error.rb */,
+			);
+			path = claide;
+			sourceTree = "<group>";
+		};
+		0AE772461F4D743600432AA9 /* ansi */ = {
+			isa = PBXGroup;
+			children = (
+				0AE772471F4D743600432AA9 /* cursor.rb */,
+				0AE772481F4D743600432AA9 /* graphics.rb */,
+				0AE772491F4D743600432AA9 /* string_escaper.rb */,
+			);
+			path = ansi;
+			sourceTree = "<group>";
+		};
+		0AE7724D1F4D743600432AA9 /* command */ = {
+			isa = PBXGroup;
+			children = (
+				0AE7724E1F4D743600432AA9 /* argument_suggester.rb */,
+				0AE7724F1F4D743600432AA9 /* banner.rb */,
+				0AE772501F4D743600432AA9 /* plugin_manager.rb */,
+			);
+			path = command;
+			sourceTree = "<group>";
+		};
+		0AE772551F4D743600432AA9 /* spec */ = {
+			isa = PBXGroup;
+			children = (
+				0AE772561F4D743600432AA9 /* ansi */,
+				0AE7725A1F4D743600432AA9 /* ansi_spec.rb */,
+				0AE7725B1F4D743600432AA9 /* argument_spec.rb */,
+				0AE7725C1F4D743600432AA9 /* argv_spec.rb */,
+				0AE7725D1F4D743600432AA9 /* command */,
+				0AE772611F4D743600432AA9 /* command_spec.rb */,
+				0AE772621F4D743600432AA9 /* fixture */,
+				0AE772671F4D743600432AA9 /* help_spec.rb */,
+				0AE772681F4D743600432AA9 /* spec_helper */,
+				0AE7726C1F4D743600432AA9 /* spec_helper.rb */,
+			);
+			path = spec;
+			sourceTree = "<group>";
+		};
+		0AE772561F4D743600432AA9 /* ansi */ = {
+			isa = PBXGroup;
+			children = (
+				0AE772571F4D743600432AA9 /* cursor_spec.rb */,
+				0AE772581F4D743600432AA9 /* graphics_spec.rb */,
+				0AE772591F4D743600432AA9 /* string_escaper_spec.rb */,
+			);
+			path = ansi;
+			sourceTree = "<group>";
+		};
+		0AE7725D1F4D743600432AA9 /* command */ = {
+			isa = PBXGroup;
+			children = (
+				0AE7725E1F4D743600432AA9 /* argument_suggester_spec.rb */,
+				0AE7725F1F4D743600432AA9 /* banner_spec.rb */,
+				0AE772601F4D743600432AA9 /* plugin_manager_spec.rb */,
+			);
+			path = command;
+			sourceTree = "<group>";
+		};
+		0AE772621F4D743600432AA9 /* fixture */ = {
+			isa = PBXGroup;
+			children = (
+				0AE772631F4D743600432AA9 /* command */,
+			);
+			path = fixture;
+			sourceTree = "<group>";
+		};
+		0AE772631F4D743600432AA9 /* command */ = {
+			isa = PBXGroup;
+			children = (
+				0AE772641F4D743600432AA9 /* demo_plugin.rb */,
+				0AE772651F4D743600432AA9 /* fixture_plugin.rb */,
+				0AE772661F4D743600432AA9 /* load_error_plugin_fixture.rb */,
+			);
+			path = command;
+			sourceTree = "<group>";
+		};
+		0AE772681F4D743600432AA9 /* spec_helper */ = {
+			isa = PBXGroup;
+			children = (
+				0AE772691F4D743600432AA9 /* fixtures.rb */,
+				0AE7726A1F4D743600432AA9 /* rubygems.rb */,
+				0AE7726B1F4D743600432AA9 /* string_ext.rb */,
+			);
+			path = spec_helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		0AE7723B1F4D741400432AA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+			};
+			buildConfigurationList = 0AE7723E1F4D741400432AA9 /* Build configuration list for PBXProject "CLAide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0AE7723A1F4D741400432AA9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		0AE7723F1F4D741400432AA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		0AE772401F4D741400432AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AE7723E1F4D741400432AA9 /* Build configuration list for PBXProject "CLAide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AE7723F1F4D741400432AA9 /* Debug */,
+				0AE772401F4D741400432AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AE7723B1F4D741400432AA9 /* Project object */;
+}
